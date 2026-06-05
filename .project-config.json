@@ -1,0 +1,43 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://3GmLtJaK6XgmSff.root:HpIth41tL53f7yHZ4PQW@gateway06.us-east-1.prod.aws.tidbcloud.com:4000/MVEPGpdUgK6z87akwineBS?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663718592578/MVEPGpdUgK6z87akwineBS",
+    "access_key_id": "ASIAZV3A2ECZJO5DVBVL",
+    "secret_access_key": "Rtk6TQ0uGIFijXJ0yfGnrgi8vOuoKrc56tOGoZNp",
+    "session_token": "IQoJb3JpZ2luX2VjEIH//////////wEaCXVzLWVhc3QtMSJGMEQCIGOeAHUC3JvfARsptcaOdf3/2Szj8nXYwhHttPkcP402AiBeY35tLx33ifXjEIjkg0t/hQIf9ez3DOtP/p9BLaD/sSr2AwhJEAQaDDY2NTM4NjA5ODg2NiIMSHntENfgUFublMq0KtMDmxstecR7ntk82K6WnN3gGVb9y8Yqi2ofICfXAFT5gkPFY79bZoZJvKUyu4lxRJIWUHYE9Lk8N24cl1GiTNmxfCvTRpX3/U76JxlYtUTshk0CWQW8JNpymhDAKWlwjD0NVuRHMl6auduSyFladvJ53Gv4Kq5ag79jGE/lfwyAEN2+gZaWzVnH7Bwg/mKJGDXMc7N3gqT2Byzr3CskTdKUY8cOgBxhjquqWS1mu2DfGvELeb94Lxq8cjYVtErc+wutM/sON24SaPIeJs48G6E2e3BsLvMZnkqJQXTQOnQ0L6icLKGt1+Wo/wD1GFDDiueCS8eXFypvCyPwx195UP3eDbgPurC5IUbrHav00/9+l30ChvyncF1BVlW7BmAZF76n6mMKm8SoFQbU1NQVlpLk5wUBrtLQ+8yJZ17z4dfrH6vF5r+tPZ2/XR0KDd3K0EBLy8Tc/5RZQbO7idtpOFW3bcolo8otOWBbD9e30YRGR7Mhq5wh1LrehwKb8rFFn2CDU9V7V9a5sfI+mT2BM3Aid2N3Sv0dUbV5FB5LvdBO8w3oEb58Jjr+NmPUCLtp3xIq2pC/HDgGDIIrNsG0v57ZZ8dH2hwOlW3HMi13m8M1k7slsvww1YOD0QY6ngHdaCYe1rdq433MuAlAdqRZnKe8SgaUWXmN6FaDdV7hK07w0bLAZht38UGQH/ASw5At9HWHLQeAUfmiQM1fQHpbPtAZdsiGAWx29gmTgFkkNLv/JJHSmHBgBp0a2kkwyr4am2GUFgofTJa2SYCINTeKoQ1SapD4Av0IA/xd5oNBJMWTF7yZZ6BUTz2EemuOoF1kBnXLWYcNwdyQyCRKRA==",
+    "expiration": "2026-06-04T12:07:49.000Z"
+  },
+  "name": "asaph-crispy",
+  "path": "/home/ubuntu/asaph-crispy",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "7o4So7tkQcVmhHR97zDVUJ",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "7DwFB8PRt5aMDcGgPMyZjF",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Gabriel Felipe",
+    "OWNER_OPEN_ID": "TDjpTTStR7PdZPTa8pDoHY",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "22836e65-c869-4abb-88dc-d1b86cca790e",
+    "VITE_APP_ID": "MVEPGpdUgK6z87akwineBS",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Asaph Crispy - Cardápio Online com Fidelidade",
+    "VITE_FRONTEND_FORGE_API_KEY": "iKQR8jXB8vvNvUCdPjuSvm",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}
